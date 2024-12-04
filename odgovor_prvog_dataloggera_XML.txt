@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<channels>
+<channel id="ID_95c3de1f">
+<time format="">2024/12/04 13:23:00</time>
+<avgtime>5</avgtime>
+<siteid></siteid>
+<device>P_Vode</device>
+<comp>v_Jezer_SAHT</comp>
+<min>338.2</min>
+<mean>338.2</mean>
+<max>338.2</max>
+<stddev>0.0</stddev>
+<unit>cm</unit>
+<validity>100</validity>
+<opestatus>________</opestatus>
+<errstatus>________</errstatus>
+<intstatus>______________</intstatus>
+</channel>
+<channel id="ID_2d6407e0">
+<time format="">2024/12/04 13:23:00</time>
+<avgtime>5</avgtime>
+<siteid></siteid>
+<device>P_Vode</device>
+<comp>v_Jezer_RV</comp>
+<min>41.8</min>
+<mean>41.8</mean>
+<max>41.8</max>
+<stddev>0.0</stddev>
+<unit>%</unit>
+<validity>100</validity>
+<opestatus>________</opestatus>
+<errstatus>________</errstatus>
+<intstatus>______________</intstatus>
+</channel>
+<channel id="ID_9bf7f39d">
+<time format="">2024/12/04 13:23:00</time>
+<avgtime>5</avgtime>
+<siteid></siteid>
+<device>P_Vode</device>
+<comp>v_Jezer_Nivo</comp>
+<min>280.734</min>
+<mean>280.734</mean>
+<max>280.734</max>
+<stddev>0.000</stddev>
+<unit>m</unit>
+<validity>100</validity>
+<opestatus>________</opestatus>
+<errstatus>________</errstatus>
+<intstatus>______________</intstatus>
+</channel>
+<channel id="ID_5ae7222">
+<time format="">2024/12/04 13:23:00</time>
+<avgtime>5</avgtime>
+<siteid></siteid>
+<device>P_Vode</device>
+<comp>v_Jez_sht_UZ</comp>
+<min>349.1</min>
+<mean>349.1</mean>
+<max>349.1</max>
+<stddev>0.0</stddev>
+<unit>cm</unit>
+<validity>100</validity>
+<opestatus>________</opestatus>
+<errstatus>________</errstatus>
+<intstatus>______________</intstatus>
+</channel>
+<channel id="ID_925f49c8">
+<time format="">2024/12/04 13:23:00</time>
+<avgtime>5</avgtime>
+<siteid></siteid>
+<device>P_Vode</device>
+<comp>ALARM</comp>
+<min>0.000</min>
+<mean>0.000</mean>
+<max>0.000</max>
+<stddev>0.000</stddev>
+<unit>-</unit>
+<validity>100</validity>
+<opestatus>________</opestatus>
+<errstatus>_GF___B_</errstatus>
+<intstatus>______________</intstatus>
+</channel>
+<info>
+<uid>3223185015</uid>
+</info>
+</channels>

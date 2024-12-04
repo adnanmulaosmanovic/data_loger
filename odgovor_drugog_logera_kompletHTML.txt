@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<title>I/O-Expander (Linux)</title>
+<link rel="stylesheet" href="/styles/iox-styles.css" type="text/css" title="Normal" />
+<style type="text/css">
+@media print {
+body { background: white }
+}
+.data table { width:100%; }
+#ra { text-align:right; }
+#la { text-align:left; }
+#ce { text-align:center; }
+#tt { text-transform:uppercase; }
+#p1 { padding-left:1em; }
+#sh    { margin-top:0.75em; margin-bottom:0.75em; }
+#sh td { font-size:1.2em; padding-right:0.5em; }
+</style>
+</head>
+<body>
+<div id="page">
+<div id="top">
+<div class="title">
+<h2>HORIBA Data Acquisition</h2>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="/cgi-bin/cgi-iox?proc=1">Home</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=2">Status information</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=3">Instantaneous values</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=5">Reports</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=6">Downloads</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=7">About this site</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="right">
+<ul>
+<li>
+<h6>Navigation</h6>
+<ul>
+<li><a href="/cgi-bin/cgi-iox?proc=1">Home</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=2">Status information</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=3">Instantaneous values</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=4">Data availability matrix</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=5">Reports</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=6">Downloads</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=7">About this site</a></li>
+</ul>
+</li>
+<li>
+<h6>Admin</h6>
+<ul>
+<li><a href="/cgi-bin/cgi-iox?proc=49">Gas Multiplexer</a></li>
+<li><a href="/cgi-bin/cgi-iox?proc=50">System Settings</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="left">
+<h2>Instantaneous values</h2>
+<p>
+The following data table contains actual values of
+pollutant concentrations and meteorological measurements.
+</p>
+<div class="box">
+<div class="navigation">
+<ul>
+<li><a id="tt" href="/cgi-bin/cgi-iox?proc=3&GET_AVG=0">Instantaneous values</a></li>
+<li><a id="tt" href="/cgi-bin/cgi-iox?proc=3&GET_AVG=1">Latest short term averages</a></li>
+<li><a id="tt" href="/cgi-bin/cgi-iox?proc=3&GET_AVG=2">Latest long term averages</a></li>
+</ul>
+</div>
+</div>
+<div id="sh" class="box">
+<table>
+<tr>
+<td><b>Station name:</b></td>
+<td id="p1">
+Otpad voda
+</td>
+</tr>
+<tr>
+<td><b>Date/Time:</b></td>
+<td id="p1">
+2024/11/29 14:19:15
+</td>
+</tr>
+</table>
+</div>
+<div class="box">
+<div class="data">
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Component</th>
+<th>Mean</th>
+<th>Unit</th>
+<th>Validity</th>
+<th>OpeStatus</th>
+<th>ErrStatus</th>
+<th>IntStatus</th>
+</tr>
+</thead>
+<tr>
+<td id="la">HPV</td>
+<td id="la">w_Fi700_prit</td>
+<td id="ra">3.08</td>
+<td id="la">bar</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">HPV</td>
+<td id="la">w_Fi800_prit</td>
+<td id="ra">3.07</td>
+<td id="la">bar</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">HPV</td>
+<td id="la">w_RT2_prot</td>
+<td id="ra">0.0</td>
+<td id="la">m3/h</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">_______u______</td>
+</tr>
+<tr>
+<td id="la">HPV</td>
+<td id="la">w_RT2_nivo</td>
+<td id="ra">14.0</td>
+<td id="la">cm</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">HPV</td>
+<td id="la">w_RT2_kumul</td>
+<td id="ra">0.0</td>
+<td id="la">m3</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E2_protok</td>
+<td id="ra">238</td>
+<td id="la">m3/h</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E2_pH</td>
+<td id="ra">11.14</td>
+<td id="la">-</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E2_temp</td>
+<td id="ra">20.7</td>
+<td id="la">degC</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E3_provod</td>
+<td id="ra">24</td>
+<td id="la">mS</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E3_mutnoc</td>
+<td id="ra">3</td>
+<td id="la">NTU</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E3_pH</td>
+<td id="ra">12.53</td>
+<td id="la">-</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E3_protok</td>
+<td id="ra">222</td>
+<td id="la">m3/h</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E3_temp</td>
+<td id="ra">10.3</td>
+<td id="la">degC</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E2_ukupno</td>
+<td id="ra">0</td>
+<td id="la">m3</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+<tr>
+<td id="la">Voda</td>
+<td id="la">v_E3_ukupno</td>
+<td id="ra">0</td>
+<td id="la">m3</td>
+<td id="ra">100</td>
+<td id="ce">________</td>
+<td id="ce">________</td>
+<td id="ce">______________</td>
+</tr>
+</table>
+</div>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+<div id="bottom">
+<p>© 2004 - 2009 Gemi GmbH - All rights reserved</p>
+</div>
+</div>
+</body>
+</html>
