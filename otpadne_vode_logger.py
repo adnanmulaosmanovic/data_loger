@@ -28,8 +28,16 @@ def datalogger():
         #output.insert(0, ["Naziv", "Vrijednost", "Jedinice"])
         print (tabulate(output, headers=head, tablefmt="grid"))
         print("\n")
+
+    except Exception as e:
+        print("Error: ", e)
+        print("Nije uspjelo povezivanje sa datalogerom 192.168.110.89")
+        head=["Naziv", "Vrijednost", "Jedinice"]
+        print (tabulate(["-" "-" "-"], headers=head, tablefmt="grid"))
+        print("\n")
         
-        
+def datalogger_2():
+    try:       
         response2 = requests.get('http://horiba:password@192.168.110.90/cgi-bin/cgi-iox?proc=3')
 
         soup2=BeautifulSoup(response2.text, 'html.parser')
@@ -58,4 +66,7 @@ def datalogger():
 
     except Exception as e:
         print("Error: ", e)
-        print("Nije uspjelo povezivanje")
+        print("Nije uspjelo povezivanje sa datalogerom 192.168.110.90")
+        head2=["Lokacija", "Naziv", "Vrijednost", "Jedinica"]
+        print (tabulate(["-" "-" "-" "-"], headers=head2, tablefmt="grid"))
+        print("\n")

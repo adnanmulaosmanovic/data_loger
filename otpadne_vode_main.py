@@ -18,6 +18,7 @@ def repeat():
         print (datetime.datetime.now())
         
         otpadne_vode_logger.datalogger()
+        otpadne_vode_logger.datalogger_2()
         print("----------------------------")
     #    time.sleep(90)
         print("Novo ucitavanje za 90 sekundi:")
